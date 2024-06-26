@@ -6,7 +6,7 @@ RUN wget https://github.com/Kkbrothers8795/uptime-kuma/archive/refs/tags/V1.23.1
 RUN unzip V1.23.14.zip
 WORKDIR ./app
 COPY . .
-RUN cd V1.23.14
+RUN cd uptime-kuma-1.23.14
 RUN npm run setup
 EXPOSE 3001:3001
 CMD ["node", "server/server.js"]
