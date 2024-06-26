@@ -1,7 +1,7 @@
 FROM node:20-bookworm-slim AS base2-slim
 RUN mkdir ./app
 RUN apt update && \
-    apt install zip unzip wget
+    apt install zip unzip wget -y
 RUN wget https://github.com/Kkbrothers8795/uptime-kuma/archive/refs/tags/V1.23.14.zip
 RUN unzip 1.23.14.zip .
 WORKDIR ./app
