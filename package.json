@@ -1,10 +1,10 @@
 {
     "name": "uptime-kuma",
-    "version": "2.0.0-dev",
+    "version": "1.23.13",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/louislam/uptime-kuma.git"
+        "url": "https://github.com/kkbrothers8795/uptime-kuma.git"
     },
     "engines": {
         "node": "18 || >= 20.4.0"
